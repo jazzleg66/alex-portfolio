@@ -3,40 +3,22 @@
 @tailwind utilities;
 
 /* ── FONT FACES ── */
+/* Download Absans from freebiesbug.com/free-fonts/absans/ */
 /* Drop your .woff2 files into /public/fonts/ */
 @font-face {
-  font-family: "StyreneB";
-  src: url("/fonts/StyreneB-Regular.woff2") format("woff2");
+  font-family: "Absans";
+  src: url("/fonts/Absans-Regular.woff2") format("woff2"),
+       url("/fonts/Absans-Regular.otf") format("opentype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "StyreneB";
-  src: url("/fonts/StyreneB-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "StyreneB";
-  src: url("/fonts/StyreneB-Bold.woff2") format("woff2");
+  font-family: "Absans";
+  src: url("/fonts/Absans-Bold.woff2") format("woff2"),
+       url("/fonts/Absans-Bold.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Tiempos";
-  src: url("/fonts/TiemposText-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Tiempos";
-  src: url("/fonts/TiemposText-RegularItalic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: italic;
   font-display: swap;
 }
 
@@ -48,9 +30,7 @@
   --green: #2C7A2C;
   --tan: #E8D5B7;
 
-  /* Font stacks */
-  --font-ui:   "StyreneB", "Helvetica Neue", Arial, sans-serif;
-  --font-text: "Tiempos", Georgia, "Times New Roman", serif;
+  --font-absans: "Absans", "Helvetica Neue", Arial, sans-serif;
 }
 
 html {
@@ -61,22 +41,15 @@ html {
 body {
   background-color: var(--cream);
   color: var(--black);
-  /* Press Start 2P remains the default for pixel-art decorative text */
+  /* Press Start 2P stays for pixel-art decorative labels */
   font-family: var(--font-press-start), monospace;
 }
 
-/* UI elements — buttons, badges, nav, labels */
-button,
-a,
-nav,
-[class*="pixel-badge"],
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-ui);
-}
-
-/* Body / prose text — paragraphs, descriptions */
-p, li, blockquote {
-  font-family: var(--font-text);
+/* UI elements & body text — Absans */
+button, a, nav,
+h1, h2, h3, h4, h5, h6,
+p, li, blockquote, span, label {
+  font-family: var(--font-absans);
 }
 
 * {
