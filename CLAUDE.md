@@ -50,7 +50,7 @@ Purpose: Showcase vibe coding projects and attract business contacts.
 - [x] Phase 2: Core UI components (PixelButton, PixelCard, SectionTitle, PixelBadge)
 - [x] Phase 3: Navbar & root layout
 - [x] Phase 4: Hero section
-- [ ] Phase 5: About page
+- [x] Phase 5: About page
 - [ ] Phase 6: Projects page
 - [ ] Phase 7: Skills page
 - [ ] Phase 8: Contact page
