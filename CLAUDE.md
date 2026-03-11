@@ -52,8 +52,8 @@ Purpose: Showcase vibe coding projects and attract business contacts.
 - [x] Phase 4: Hero section
 - [x] Phase 5: About page
 - [x] Phase 6: Projects page
-- [ ] Phase 7: Skills page
-- [ ] Phase 8: Contact page
+- [x] Phase 7: Skills page
+- [x] Phase 8: Contact page
 - [ ] Phase 9: SEO & polish
 
 ## Session Instructions for Claude Code
