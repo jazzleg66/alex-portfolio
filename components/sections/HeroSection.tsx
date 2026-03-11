@@ -54,7 +54,7 @@ export default function HeroSection() {
           </div>
 
           {/* Right: Pixel art avatar */}
-          <div className="flex-shrink-0" style={{ boxShadow: "4px 4px 0px var(--black)" }}>
+          <div className="flex-shrink-0 bg-white" style={{ boxShadow: "4px 4px 0px var(--black)" }}>
             <PixelAvatar size={220} />
           </div>
 
