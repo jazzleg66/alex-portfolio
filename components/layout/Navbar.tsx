@@ -39,7 +39,7 @@ export default function Navbar() {
                 <Link
                   href={href}
                   className={
-                    "text-[0.875rem] transition-colors" +
+                    "text-[0.875rem] transition-colors " +
                     (isActive
                       ? "text-[var(--red)] underline underline-offset-4"
                       : "text-[var(--cream)] hover:text-[var(--red)]")
@@ -85,7 +85,7 @@ export default function Navbar() {
                     href={href}
                     onClick={() => setMenuOpen(false)}
                     className={
-                      "block px-6 py-4 text-[0.875rem] transition-colors" +
+                      "block px-6 py-4 text-[0.875rem] transition-colors " +
                       (isActive
                         ? "text-[var(--red)]"
                         : "text-[var(--cream)] hover:text-[var(--red)]")
