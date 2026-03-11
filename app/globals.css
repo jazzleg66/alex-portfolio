@@ -2,22 +2,81 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ── FONT FACES ── */
+/* Drop your .woff2 files into /public/fonts/ */
+@font-face {
+  font-family: "StyreneB";
+  src: url("/fonts/StyreneB-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StyreneB";
+  src: url("/fonts/StyreneB-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "StyreneB";
+  src: url("/fonts/StyreneB-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Tiempos";
+  src: url("/fonts/TiemposText-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Tiempos";
+  src: url("/fonts/TiemposText-RegularItalic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ── CSS VARIABLES ── */
 :root {
-  --cream: #FAF3E0;
+  --cream: #fff0db;
   --black: #1A1A1A;
   --red: #C0392B;
   --green: #2C7A2C;
   --tan: #E8D5B7;
+
+  /* Font stacks */
+  --font-ui:   "StyreneB", "Helvetica Neue", Arial, sans-serif;
+  --font-text: "Tiempos", Georgia, "Times New Roman", serif;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
+/* ── BASE STYLES ── */
 body {
   background-color: var(--cream);
   color: var(--black);
+  /* Press Start 2P remains the default for pixel-art decorative text */
   font-family: var(--font-press-start), monospace;
+}
+
+/* UI elements — buttons, badges, nav, labels */
+button,
+a,
+nav,
+[class*="pixel-badge"],
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-ui);
+}
+
+/* Body / prose text — paragraphs, descriptions */
+p, li, blockquote {
+  font-family: var(--font-text);
 }
 
 * {
