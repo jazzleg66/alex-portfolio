@@ -25,13 +25,13 @@ export default function AboutSection() {
           <PixelCard className="bg-[var(--tan)]">
             <h3
               className="text-[var(--black)] mb-6 pb-3 border-b-[3px] border-[var(--black)]"
-              style={{ fontSize: "0.75rem" }}
+              style={{ fontSize: "1.25rem" }}
             >
               ▶ PLAYER INFO
             </h3>
             <ul className="flex flex-col gap-5">
               {playerInfo.map(({ label, value }) => (
-                <li key={label} style={{ fontSize: "0.5rem", lineHeight: "2" }}>
+                <li key={label} style={{ fontSize: "1rem", lineHeight: "1.8" }}>
                   <span className="text-[var(--red)]">▶ {label}</span>
                   <br />
                   <span className="text-[var(--black)] pl-3">{value}</span>
@@ -48,13 +48,13 @@ export default function AboutSection() {
           <PixelCard>
             <h3
               className="text-[var(--black)] mb-4"
-              style={{ fontSize: "0.75rem" }}
+              style={{ fontSize: "1.25rem" }}
             >
               MY STORY
             </h3>
             <p
               className="text-[var(--black)]"
-              style={{ fontSize: "0.6rem", lineHeight: "2.8" }}
+              style={{ fontSize: "1rem", lineHeight: "1.8" }}
             >
               I started my career in hospitality and real estate investment —
               industries built on relationships, timing, and execution. Then I
@@ -62,7 +62,7 @@ export default function AboutSection() {
             </p>
             <p
               className="text-[var(--black)] mt-4"
-              style={{ fontSize: "0.6rem", lineHeight: "2.8" }}
+              style={{ fontSize: "1rem", lineHeight: "1.8" }}
             >
               Now I use Claude Code and modern AI tools to build web products
               from scratch — no CS degree required. I turn ideas into shipped
@@ -71,7 +71,7 @@ export default function AboutSection() {
             </p>
             <p
               className="text-[var(--black)] mt-4"
-              style={{ fontSize: "0.6rem", lineHeight: "2.8" }}
+              style={{ fontSize: "1rem", lineHeight: "1.8" }}
             >
               Based in Taiwan. Interested in AI, investing, and entrepreneurship.
               Always building.
@@ -82,7 +82,7 @@ export default function AboutSection() {
           <PixelCard className="bg-[var(--tan)]">
             <h3
               className="text-[var(--black)] mb-6 pb-3 border-b-[3px] border-[var(--black)]"
-              style={{ fontSize: "0.75rem" }}
+              style={{ fontSize: "1.25rem" }}
             >
               ⚔ CURRENT QUESTS
             </h3>
@@ -91,7 +91,7 @@ export default function AboutSection() {
                 <li
                   key={quest}
                   className="flex items-start gap-3"
-                  style={{ fontSize: "0.55rem", lineHeight: "2" }}
+                  style={{ fontSize: "1rem", lineHeight: "1.8" }}
                 >
                   <span className="text-[var(--green)] flex-shrink-0">⚔</span>
                   <span className="text-[var(--black)]">{quest}</span>

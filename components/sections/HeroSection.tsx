@@ -19,7 +19,7 @@ export default function HeroSection() {
             {/* H1 */}
             <h1
               className="text-[var(--black)] leading-tight"
-              style={{ fontSize: "clamp(1.2rem, 3vw, 2rem)" }}
+              style={{ fontSize: "clamp(2rem, 5vw, 3.5rem)" }}
             >
               I&apos;M ALEX CHANG
             </h1>
@@ -27,7 +27,7 @@ export default function HeroSection() {
             {/* Subtitle */}
             <p
               className="text-[var(--red)]"
-              style={{ fontSize: "0.75rem", lineHeight: "2" }}
+              style={{ fontSize: "1.125rem", lineHeight: "2" }}
             >
               MBA. VIBE CODER. AI BUILDER.
             </p>
@@ -35,7 +35,7 @@ export default function HeroSection() {
             {/* Bio */}
             <p
               className="text-[var(--black)] border-l-[3px] border-[var(--tan)] pl-4"
-              style={{ fontSize: "0.6rem", lineHeight: "2.5" }}
+              style={{ fontSize: "1rem", lineHeight: "2" }}
             >
               From hospitality &amp; real estate to building AI-powered
               products with code. I use Claude Code to turn ideas into

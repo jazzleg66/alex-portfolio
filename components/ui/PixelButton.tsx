@@ -24,7 +24,7 @@ export default function PixelButton({
   className = "",
 }: PixelButtonProps) {
   const base =
-    "inline-block px-4 py-2 text-[0.6rem] leading-none border-[3px] " +
+    "inline-block px-5 py-3 text-[0.875rem] leading-none border-[3px] " +
     "shadow-[4px_4px_0px_var(--black)] transition-all duration-100 " +
     "active:shadow-none active:translate-x-[4px] active:translate-y-[4px] " +
     "cursor-pointer select-none " +

@@ -13,7 +13,7 @@ export default function ProjectsSection() {
       <SectionTitle>PROJECTS</SectionTitle>
       <p
         className="text-[var(--black)] mb-10"
-        style={{ fontSize: "0.6rem", lineHeight: "2.5" }}
+        style={{ fontSize: "1rem", lineHeight: "1.8" }}
       >
         Things I&apos;ve built — shipped fast, learned even faster.
       </p>
@@ -26,7 +26,7 @@ export default function ProjectsSection() {
             <div className="flex items-start justify-between gap-4">
               <h3
                 className="text-[var(--black)] leading-tight"
-                style={{ fontSize: "0.75rem" }}
+                style={{ fontSize: "1.25rem" }}
               >
                 {project.name}
               </h3>
@@ -38,7 +38,7 @@ export default function ProjectsSection() {
             {/* Description */}
             <p
               className="text-[var(--black)] flex-1"
-              style={{ fontSize: "0.55rem", lineHeight: "2.5" }}
+              style={{ fontSize: "1rem", lineHeight: "1.8" }}
             >
               {project.description}
             </p>

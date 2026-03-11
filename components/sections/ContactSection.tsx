@@ -20,13 +20,13 @@ export default function ContactSection() {
           <div className="flex flex-col gap-4">
             <h2
               className="text-[var(--black)]"
-              style={{ fontSize: "1.2rem", lineHeight: "1.8" }}
+              style={{ fontSize: "1.75rem", lineHeight: "1.6" }}
             >
               LET&apos;S BUILD SOMETHING
             </h2>
             <p
               className="text-[var(--black)]"
-              style={{ fontSize: "0.55rem", lineHeight: "2.8" }}
+              style={{ fontSize: "1rem", lineHeight: "1.8" }}
             >
               Open to freelance projects, consulting,
               <br />
@@ -38,7 +38,7 @@ export default function ContactSection() {
           <PixelButton
             href="mailto:s996639@gmail.com"
             variant="black"
-            className="text-[0.65rem] px-6 py-3"
+            className="text-[1rem] px-6 py-3"
           >
             ✉ EMAIL ME
           </PixelButton>
@@ -50,7 +50,7 @@ export default function ContactSection() {
           <div className="flex flex-col items-center gap-4">
             <p
               className="text-[var(--black)]"
-              style={{ fontSize: "0.5rem", lineHeight: "2" }}
+              style={{ fontSize: "0.875rem", lineHeight: "1.8" }}
             >
               Or find me on:
             </p>
@@ -60,7 +60,7 @@ export default function ContactSection() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[var(--black)] hover:text-[var(--red)] transition-colors underline underline-offset-4"
-                style={{ fontSize: "0.55rem" }}
+                style={{ fontSize: "1rem" }}
               >
                 LinkedIn
               </a>
@@ -69,7 +69,7 @@ export default function ContactSection() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[var(--black)] hover:text-[var(--red)] transition-colors underline underline-offset-4"
-                style={{ fontSize: "0.55rem" }}
+                style={{ fontSize: "1rem" }}
               >
                 GitHub
               </a>

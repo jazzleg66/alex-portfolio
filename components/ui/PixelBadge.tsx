@@ -19,7 +19,7 @@ export default function PixelBadge({
   return (
     <span
       className={
-        "inline-block px-2 py-1 text-[0.5rem] leading-none " +
+        "inline-block px-3 py-1 text-[0.75rem] leading-none " +
         "border-[2px] shadow-[2px_2px_0px_var(--black)] " +
         variantStyles[variant] +
         " " +

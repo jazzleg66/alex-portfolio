@@ -40,7 +40,7 @@ export default function SkillsSection() {
 
       <p
         className="text-[var(--black)] mb-12"
-        style={{ fontSize: "0.6rem", lineHeight: "2.5" }}
+        style={{ fontSize: "1rem", lineHeight: "1.8" }}
       >
         Here&apos;s my current tech stack — built through building.
       </p>
@@ -51,7 +51,7 @@ export default function SkillsSection() {
             {/* Category header */}
             <h3
               className="text-[var(--black)] mb-4 pb-2 border-b-[3px] border-[var(--black)] inline-block"
-              style={{ fontSize: "0.65rem" }}
+              style={{ fontSize: "1.125rem" }}
             >
               {icon} {label}
             </h3>

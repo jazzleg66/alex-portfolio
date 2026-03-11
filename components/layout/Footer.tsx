@@ -5,7 +5,7 @@ export default function Footer() {
       style={{ fontFamily: "var(--font-press-start), monospace" }}
     >
       <div className="max-w-5xl mx-auto px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <p className="text-[var(--tan)] text-[0.5rem]">
+        <p className="text-[var(--tan)] text-[0.75rem]">
           © 2026 Alex Chang. All rights reserved.
         </p>
 
@@ -14,7 +14,7 @@ export default function Footer() {
             href="https://github.com/jazzleg66"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[var(--cream)] text-[0.5rem] hover:text-[var(--red)] transition-colors"
+            className="text-[var(--cream)] text-[0.75rem] hover:text-[var(--red)] transition-colors"
           >
             GitHub
           </a>
@@ -22,13 +22,13 @@ export default function Footer() {
             href="https://www.linkedin.com/in/alexwcchang"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-[var(--cream)] text-[0.5rem] hover:text-[var(--red)] transition-colors"
+            className="text-[var(--cream)] text-[0.75rem] hover:text-[var(--red)] transition-colors"
           >
             LinkedIn
           </a>
           <a
             href="mailto:s996639@gmail.com"
-            className="text-[var(--cream)] text-[0.5rem] hover:text-[var(--red)] transition-colors"
+            className="text-[var(--cream)] text-[0.75rem] hover:text-[var(--red)] transition-colors"
           >
             Email
           </a>

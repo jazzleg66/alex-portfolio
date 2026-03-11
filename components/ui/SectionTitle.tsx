@@ -7,7 +7,7 @@ export default function SectionTitle({ children, className = "" }: SectionTitleP
   return (
     <h2
       className={
-        "text-[1.5rem] text-[var(--black)] mb-8 pb-2 " +
+        "text-[2rem] text-[var(--black)] mb-8 pb-2 " +
         "border-b-[3px] border-[var(--black)] " +
         "leading-tight " +
         className
