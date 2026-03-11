@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cream: #FAF3E0;
+  --black: #1A1A1A;
+  --red: #C0392B;
+  --green: #2C7A2C;
+  --tan: #E8D5B7;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--black);
+  font-family: var(--font-press-start), monospace;
+}
+
+* {
+  border-radius: 0 !important;
+}
