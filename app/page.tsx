@@ -2,7 +2,7 @@ import { PixelButton, PixelCard, SectionTitle, PixelBadge } from "@/components/u
 
 export default function Home() {
   return (
-    <main className="min-h-screen p-8 flex flex-col gap-8">
+    <div className="max-w-5xl mx-auto px-6 py-8 flex flex-col gap-8">
       <SectionTitle>UI Component Preview</SectionTitle>
 
       {/* Buttons */}
@@ -35,6 +35,6 @@ export default function Home() {
           <PixelButton variant="black">View Project</PixelButton>
         </PixelCard>
       </section>
-    </main>
+    </div>
   );
 }

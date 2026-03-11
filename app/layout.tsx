@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Press_Start_2P } from "next/font/google";
+import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 import "./globals.css";
 
 const pressStart2P = Press_Start_2P({
@@ -21,8 +23,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${pressStart2P.variable}`}>
-        {children}
+      <body className={`${pressStart2P.variable} flex flex-col min-h-screen`}>
+        <Navbar />
+        <main className="flex-1">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   );
