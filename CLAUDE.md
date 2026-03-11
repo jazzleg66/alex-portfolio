@@ -14,7 +14,7 @@ Purpose: Showcase vibe coding projects and attract business contacts.
 - Framework: Next.js 14 (App Router), TypeScript
 - Styling: Tailwind CSS + custom CSS
 - Font: Press Start 2P (Google Fonts)
-- Hosting: Vercel (deploy from GitHub)
+- Hosting: Vercel — https://alexwcchang.vercel.app
 
 ## Design System
 - Style: Classic 8-bit pixel art, warm cream aesthetic
