@@ -12,8 +12,27 @@ const pressStart2P = Press_Start_2P({
 });
 
 export const metadata: Metadata = {
-  title: "Alex Chang — Portfolio",
-  description: "Personal portfolio of Alex Chang. Vibe coding projects and AI products.",
+  title: {
+    default: "Alex Chang — Portfolio",
+    template: "%s | Alex Chang",
+  },
+  description:
+    "Personal portfolio of Alex Chang — MBA, vibe coder, and AI builder. Showcasing AI-powered products built with Claude Code.",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://alex-portfolio-jazzleg66.vercel.app",
+    siteName: "Alex Chang Portfolio",
+    title: "Alex Chang — Portfolio",
+    description:
+      "MBA. Vibe Coder. AI Builder. Showcasing AI-powered products built with Claude Code.",
+  },
+  twitter: {
+    card: "summary",
+    title: "Alex Chang — Portfolio",
+    description:
+      "MBA. Vibe Coder. AI Builder. Showcasing AI-powered products built with Claude Code.",
+  },
 };
 
 export default function RootLayout({
