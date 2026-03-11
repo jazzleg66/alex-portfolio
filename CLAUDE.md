@@ -8,6 +8,7 @@ Purpose: Showcase vibe coding projects and attract business contacts.
 - Name: Alex Chang
 - Email: s996639@gmail.com
 - LinkedIn: https://www.linkedin.com/in/alexwcchang
+- GitHub: https://github.com/jazzleg66
 
 ## Stack
 - Framework: Next.js 14 (App Router), TypeScript
@@ -46,7 +47,7 @@ Purpose: Showcase vibe coding projects and attract business contacts.
 
 ## Build Phases & Status
 - [x] Phase 1: Project setup, fonts, folder structure, Git, CLAUDE.md
-- [ ] Phase 2: Core UI components (PixelButton, PixelCard, SectionTitle, PixelBadge)
+- [x] Phase 2: Core UI components (PixelButton, PixelCard, SectionTitle, PixelBadge)
 - [ ] Phase 3: Navbar & root layout
 - [ ] Phase 4: Hero section
 - [ ] Phase 5: About page
