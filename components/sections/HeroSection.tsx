@@ -1,4 +1,4 @@
-import { PixelButton, PixelBadge } from "@/components/ui";
+import { PixelButton, PixelBadge, PixelAvatar } from "@/components/ui";
 
 export default function HeroSection() {
   return (
@@ -53,16 +53,9 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Right: Avatar placeholder */}
-          <div className="flex-shrink-0">
-            <div
-              className="w-48 h-48 md:w-56 md:h-56 flex flex-col items-center justify-center border-[3px] border-dashed border-[var(--black)] bg-[var(--tan)]"
-              style={{ fontSize: "0.5rem", lineHeight: "2.5" }}
-            >
-              <span className="text-[2rem]">👾</span>
-              <span className="text-[var(--black)] mt-2">AVATAR</span>
-              <span className="text-[var(--black)] opacity-50 mt-1">200×200</span>
-            </div>
+          {/* Right: Pixel art avatar */}
+          <div className="flex-shrink-0" style={{ boxShadow: "4px 4px 0px var(--black)" }}>
+            <PixelAvatar size={220} />
           </div>
 
         </div>
