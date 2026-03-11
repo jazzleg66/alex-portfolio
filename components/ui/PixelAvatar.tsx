@@ -169,9 +169,6 @@ export default function PixelAvatar({ size = 200 }: { size?: number }) {
 
       {/* Eye */}
       <rect x="75" y="66" width="9" height="6" fill="#1A1A1A" />
-      <rect x="77" y="67" width="4" height="3" fill="#FFFFFF" />
-      <rect x="78" y="68" width="2" height="2" fill="#333333" />
-      <rect x="79" y="67" width="2" height="1" fill="#FFFFFF" />
 
       {/* Nose */}
       <rect x="84" y="72" width="5" height="5" fill="#DDDDDD" />
