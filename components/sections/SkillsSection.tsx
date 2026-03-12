@@ -1,33 +1,48 @@
 import { SectionTitle, PixelBadge } from "@/components/ui";
+import {
+  IconAI,
+  IconFrontend,
+  IconBackend,
+  IconDatabase,
+  IconDevTools,
+  IconBusiness,
+} from "@/components/ui/PixelIcons";
+import type { ComponentType } from "react";
 
-const skillCategories = [
+type IconProps = { size?: number; className?: string };
+
+const skillCategories: {
+  Icon: ComponentType<IconProps>;
+  label: string;
+  skills: string[];
+}[] = [
   {
-    icon: "🤖",
+    Icon: IconAI,
     label: "AI & LLM TOOLS",
     skills: ["Claude Code", "Claude API", "GPT-4", "Cursor"],
   },
   {
-    icon: "💻",
+    Icon: IconFrontend,
     label: "FRONTEND",
     skills: ["Next.js", "React", "Nuxt 3", "Vue 3", "Tailwind CSS", "TypeScript"],
   },
   {
-    icon: "🔧",
+    Icon: IconBackend,
     label: "BACKEND",
     skills: ["Flask", "Python", "Node.js"],
   },
   {
-    icon: "🗄",
+    Icon: IconDatabase,
     label: "DATABASE",
     skills: ["Supabase", "SQLite"],
   },
   {
-    icon: "🛠",
+    Icon: IconDevTools,
     label: "DEV TOOLS",
     skills: ["Git", "GitHub", "Vercel"],
   },
   {
-    icon: "📊",
+    Icon: IconBusiness,
     label: "BUSINESS",
     skills: ["MBA", "Financial Modeling", "Real Estate Analysis"],
   },
@@ -46,15 +61,18 @@ export default function SkillsSection() {
       </p>
 
       <div className="flex flex-col gap-10">
-        {skillCategories.map(({ icon, label, skills }) => (
+        {skillCategories.map(({ Icon, label, skills }) => (
           <div key={label}>
             {/* Category header */}
-            <h3
-              className="text-[var(--black)] mb-4 pb-2 border-b-[3px] border-[var(--black)] inline-block"
-              style={{ fontSize: "1.125rem" }}
-            >
-              {icon} {label}
-            </h3>
+            <div className="flex items-center gap-3 mb-4 pb-2 border-b-[3px] border-[var(--black)] inline-flex">
+              <Icon size={32} />
+              <h3
+                className="text-[var(--black)]"
+                style={{ fontSize: "1.125rem" }}
+              >
+                {label}
+              </h3>
+            </div>
 
             {/* Badges */}
             <div className="flex flex-wrap gap-3 mt-4">
