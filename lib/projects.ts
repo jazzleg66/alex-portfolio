@@ -12,7 +12,7 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: "roboverse",
-    name: "BOWL HEAL",
+    name: "BOWLMIND",
     description:
       "A mindfulness and sleep aid application built for iOS, designed around the meditative qualities of Tibetan singing bowls. The app allows users to browse and play a curated library of singing bowl recordings — each tuned to different frequencies associated with relaxation, stress relief, and sleep induction.",
     techStack: ["Nuxt 3", "Supabase", "Flask"],
