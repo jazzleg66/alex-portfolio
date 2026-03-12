@@ -12,9 +12,9 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: "roboverse",
-    name: "ROBOVERSE",
+    name: "BOWL HEAL",
     description:
-      "Global robot information aggregation platform. Collects and displays robot data from sources worldwide.",
+      "A mindfulness and sleep aid application built for iOS, designed around the meditative qualities of Tibetan singing bowls. The app allows users to browse and play a curated library of singing bowl recordings — each tuned to different frequencies associated with relaxation, stress relief, and sleep induction.",
     techStack: ["Nuxt 3", "Supabase", "Flask"],
     status: "IN PROGRESS",
     url: "#",
@@ -30,7 +30,7 @@ export const projects: Project[] = [
   },
   {
     id: "robot-home",
-    name: "機器人之家",
+    name: "ROBOT HOME",
     description:
       "Chinese robotics news aggregation site. Scrapes and surfaces the latest AI & robotics news for Chinese readers.",
     techStack: ["Flask", "React", "SQLite"],

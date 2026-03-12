@@ -1,15 +1,15 @@
 import { SectionTitle, PixelCard } from "@/components/ui";
 
 const playerInfo = [
-  { label: "LOCATION", value: "TAIWAN 🇹🇼" },
-  { label: "EDUCATION", value: "MBA, CEIBS" },
+  { label: "LOCATION", value: "SHANGHAI 🇨🇳" },
+  { label: "EDUCATION", value: "MBA, CORNELL & CEIBS" },
   { label: "BACKGROUND", value: "HOSPITALITY → REAL ESTATE → AI" },
-  { label: "STATUS", value: "BUILDING" },
+  { label: "CERTIFICATE", value: "IBM PRODUCT MANAGER" },
 ];
 
 const quests = [
   "Building AI-powered web products",
-  "Learning full-stack dev via Claude Code",
+  "Connecting business professionals with innovative mindset",
   "Exploring entrepreneurship opportunities",
 ];
 
@@ -27,7 +27,7 @@ export default function AboutSection() {
               className="text-[var(--black)] mb-6 pb-3 border-b-[3px] border-[var(--black)]"
               style={{ fontSize: "1.25rem" }}
             >
-              ▶ PLAYER INFO
+              ▶ INFO
             </h3>
             <ul className="flex flex-col gap-5">
               {playerInfo.map(({ label, value }) => (
@@ -58,23 +58,23 @@ export default function AboutSection() {
             >
               I started my career in hospitality and real estate investment —
               industries built on relationships, timing, and execution. Then I
-              discovered vibe coding.
+              discovered that AI development to help people in the business
+              world is the key.
             </p>
             <p
               className="text-[var(--black)] mt-4"
               style={{ fontSize: "1rem", lineHeight: "1.8" }}
             >
-              Now I use Claude Code and modern AI tools to build web products
-              from scratch — no CS degree required. I turn ideas into shipped
-              products fast, combining my business background with AI-assisted
-              development.
+              Now I use modern AI tools to build web products from scratch. I
+              turn ideas into shipped products fast, combining my business
+              background with AI-assisted development.
             </p>
             <p
               className="text-[var(--black)] mt-4"
               style={{ fontSize: "1rem", lineHeight: "1.8" }}
             >
-              Based in Taiwan. Interested in AI, investing, and entrepreneurship.
-              Always building.
+              Based in Shanghai. Interested in AI, real estate investing, and
+              entrepreneurship. Always building.
             </p>
           </PixelCard>
 

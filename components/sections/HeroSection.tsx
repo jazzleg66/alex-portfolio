@@ -29,7 +29,7 @@ export default function HeroSection() {
               className="text-[var(--red)]"
               style={{ fontSize: "1.125rem", lineHeight: "2" }}
             >
-              MBA. VIBE CODER. AI BUILDER.
+              MBA. EX-HOTELIE. AI BUILDER.
             </p>
 
             {/* Bio */}
@@ -38,7 +38,7 @@ export default function HeroSection() {
               style={{ fontSize: "1rem", lineHeight: "2" }}
             >
               From hospitality &amp; real estate to building AI-powered
-              products with code. I use Claude Code to turn ideas into
+              products with code. I leverage AI to turn ideas into
               shipped products — fast.
             </p>
 
