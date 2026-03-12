@@ -96,15 +96,15 @@ export default function PixelAvatar({ size = 200 }: { size?: number }) {
 
       {/* ── PERSON ── */}
 
-      {/* Shoes */}
-      <rect x="36" y="180" width="26" height="8" fill="#1A1A1A" />
-      <rect x="58" y="180" width="26" height="8" fill="#1A1A1A" />
-      <rect x="40" y="181" width="8" height="3" fill="#2C2C2C" />
-      <rect x="62" y="181" width="8" height="3" fill="#2C2C2C" />
+      {/* Shoes (pointing right toward monitor) */}
+      <rect x="56" y="182" width="26" height="8" fill="#1A1A1A" />
+      <rect x="70" y="182" width="26" height="8" fill="#1A1A1A" />
+      <rect x="60" y="183" width="8" height="3" fill="#2C2C2C" />
+      <rect x="74" y="183" width="8" height="3" fill="#2C2C2C" />
 
-      {/* Lower legs */}
-      <rect x="42" y="148" width="16" height="34" fill="#333333" />
-      <rect x="62" y="148" width="16" height="34" fill="#333333" />
+      {/* Lower legs (hanging from knees at right end of upper legs) */}
+      <rect x="60" y="148" width="14" height="36" fill="#333333" />
+      <rect x="74" y="148" width="14" height="36" fill="#333333" />
 
       {/* Upper legs (horizontal on seat) */}
       <rect x="42" y="130" width="50" height="18" fill="#333333" />
@@ -136,17 +136,17 @@ export default function PixelAvatar({ size = 200 }: { size?: number }) {
       <rect x="71" y="106" width="2" height="2" fill="#222222" />
       <rect x="71" y="112" width="2" height="2" fill="#222222" />
 
-      {/* Left arm (behind, toward keyboard) */}
+      {/* Left arm (behind, typing on keyboard) */}
       <rect x="80" y="100" width="14" height="10" fill="#222222" />
-      <rect x="86" y="109" width="12" height="10" fill="#222222" />
-      <rect x="86" y="118" width="10" height="7" fill="#EEEEEE" />
-      <rect x="88" y="123" width="6" height="4" fill="#EEEEEE" />
+      <rect x="86" y="108" width="10" height="18" fill="#222222" />
+      <rect x="88" y="124" width="12" height="22" fill="#222222" />
+      <rect x="88" y="143" width="22" height="7" fill="#EEEEEE" />
 
-      {/* Right arm (front, toward keyboard) */}
-      <rect x="88" y="98" width="14" height="10" fill="#333333" />
-      <rect x="96" y="107" width="12" height="12" fill="#333333" />
-      <rect x="96" y="117" width="10" height="8" fill="#EEEEEE" />
-      <rect x="100" y="123" width="6" height="4" fill="#EEEEEE" />
+      {/* Right arm (front, typing on keyboard) */}
+      <rect x="84" y="98" width="14" height="10" fill="#333333" />
+      <rect x="90" y="106" width="10" height="18" fill="#333333" />
+      <rect x="92" y="122" width="12" height="24" fill="#333333" />
+      <rect x="96" y="143" width="22" height="7" fill="#EEEEEE" />
 
       {/* Neck */}
       <rect x="66" y="86" width="12" height="10" fill="#EEEEEE" />
